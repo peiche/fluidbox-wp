@@ -1,3 +1,3 @@
-jQuery(document).ready(function(){
-    jQuery('a').fluidbox();
+jQuery(document).ready(function(){
+    jQuery('a[rel^="lightbox"]').fluidbox();
 });
