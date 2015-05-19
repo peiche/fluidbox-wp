@@ -27,7 +27,7 @@ As for the php file, it’s just using wp_enqueue_style() and wp_enqueue_script(
 
 ##License##
 
-This plugin is licensed under Creative Commons Attribution-ShareAlike. Share it, modify it, improve upon it. If it can be done better, let me know.
+Cover is [GPL v2.0 or later](LICENSE.txt).
 
-**Credits:**  
-Fluidbox http://terrymun.github.io/Fluidbox/
+All other resources are licensed as follows:
+
