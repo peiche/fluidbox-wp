@@ -1,0 +1,28 @@
+{
+  "name": "fluidbox-wp",
+  "version": "1.1.0",
+  "homepage": "https://github.com/peiche/fluidbox-wp",
+  "authors": [
+    "Paul <peiche@gmail.com>"
+  ],
+  "description": "Fluidbox jQuery plugin for WordPress",
+  "main": "fluidbox-wp.php",
+  "keywords": [
+    "php",
+    "wordpress",
+    "plugin",
+    "fluidbox",
+    "jquery"
+  ],
+  "license": "GPLv2 or later",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "fluidbox": "~1.4.3"
+  }
+}

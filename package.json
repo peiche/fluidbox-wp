@@ -1,0 +1,33 @@
+{
+  "name": "fluidbox-wp",
+  "version": "1.1.0",
+  "description": "Fluidbox jQuery plugin for WordPress",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peiche/fluidbox-wp.git"
+  },
+  "keywords": [
+    "WordPress",
+    "plugin",
+    "fluidbox"
+  ],
+  "author": {
+    "name": "Paul Eiche",
+    "email": "peiche@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peiche/fluidbox-wp/issues"
+  },
+  "homepage": "https://github.com/peiche/fluidbox-wp",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
