@@ -19,7 +19,7 @@ function fluidbox_scripts(){
     wp_enqueue_style( 'jquery_fluidbox', plugins_url( 'css/fluidbox.css', __FILE__ ) );
     
     wp_enqueue_script( 'jquery_fluidbox', plugins_url( 'js/jquery.fluidbox.min.js', __FILE__ ), array( 'jquery' ), true );
-    wp_enqueue_script( 'jquery_fluidboxcustom', plugins_url( 'js/fluidbox.custom.js', __FILE__ ), array( 'jquery_fluidbox' ), true );
+    wp_enqueue_script( 'jquery_fluidboxcustom', plugins_url( 'js/fluidbox-custom.min.js', __FILE__ ), array( 'jquery_fluidbox' ), true );
 }
 add_action( 'wp_enqueue_scripts', 'fluidbox_scripts' );
 
