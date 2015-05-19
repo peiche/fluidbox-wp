@@ -7,7 +7,7 @@ Description: Fluidbox jQuery plugin for WordPress
 Version: 1.0
 Author: Paul Eiche
 Author URI: http://eichefam.net/
-License: Creative Commons Attribution-ShareAlike
+License: GPLv2 or later
  
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -16,9 +16,10 @@ the Free Software Foundation; either version 2 of the License, or
 */
 
 function fluidbox_scripts(){
-wp_enqueue_style( 'jquery.fluidbox', plugins_url( 'css/fluidbox.css', __FILE__ ), false, '1.3.3' );
-wp_enqueue_script( 'jquery.fluidbox', plugins_url( 'js/jquery.fluidbox.min.js', __FILE__ ), array( 'jquery' ), '1.3.3', true );
-wp_enqueue_script( 'jquery.fluidboxcustom', plugins_url( 'js/fluidbox.custom.js', __FILE__ ), array( 'jquery', 'jquery.fluidbox' ), '1.0', true );
+    wp_enqueue_style( 'jquery_fluidbox', plugins_url( 'css/fluidbox.css', __FILE__ ) );
+    
+    wp_enqueue_script( 'jquery_fluidbox', plugins_url( 'js/jquery.fluidbox.min.js', __FILE__ ), array( 'jquery' ), true );
+    wp_enqueue_script( 'jquery_fluidboxcustom', plugins_url( 'js/fluidbox.custom.js', __FILE__ ), array( 'jquery_fluidbox' ), true );
 }
 add_action( 'wp_enqueue_scripts', 'fluidbox_scripts' );
 
